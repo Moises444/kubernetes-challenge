@@ -11,10 +11,11 @@ To:
 res.send('Hello Moises')
 ```
 ---
-### 2. Cloned the repository.
-* did magic and brought it over the the GCP dashboard (I forgot how to do this) 
+### 2. Cloned the repository in the cloud shell
+
+> git clone (url to kubernetes challenge) 
 ---
-### 3. Went into the docker file.
+### 3. Created the Docker image. 
 > $ ls 
 kubernetes-challenge  README-cloudshell.txt
 
@@ -22,14 +23,15 @@ kubernetes-challenge  README-cloudshell.txt
 moisesasaldana@cloudshell:~/kubernetes-challenge (gentle-impulse-327504)$
 
 > $ docker build . -t donatello
+> $ docker tag react-app gcr.io/gentle-impulse-327504/donatello
 ---
  
-### 4. Now i need to push it to the registry. Once i made the image I needed to tag it. 
-> $ docker tag react-app gcr.io/gentle-impulse-327504/donatello
+### 4. I need to push it to the registry. Once i made the image I needed to tag it. 
+
 
 > $ docker push gcr.io/gentle-impulse-327504/donatello
 ---
-### 5. Now i have to go back one folder and do the fun stuff. 
+### 5. Now to do the fun stuff. 
 > $ cd .. 
 from  moisesasaldana@cloudshell:~/kubernetes-challenge (gentle-impulse-327504)$
 to   moisesasaldana@cloudshell:~ (gentle-impulse-327504)$
