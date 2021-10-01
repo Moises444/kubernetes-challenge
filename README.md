@@ -46,7 +46,7 @@ to   moisesasaldana@cloudshell:~ (gentle-impulse-327504)$
 
 > $ kubectl expose deployment web-server-1 --type LoadBalancer --port 80 --target-port 80
 ---
-### 6.Now its the moment of truth!!
+### 6. Now its the moment of truth!!
 > $ kubectl get service
 
 ![Screenshot 2021-09-29 222134](https://user-images.githubusercontent.com/90883758/135574708-4c4f313a-7961-4d90-87fc-63f7c4659bc6.jpg)
