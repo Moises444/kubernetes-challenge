@@ -51,7 +51,7 @@ to   moisesasaldana@cloudshell:~ (gentle-impulse-327504)$
 
 ![Screenshot 2021-09-29 222134](https://user-images.githubusercontent.com/90883758/135574708-4c4f313a-7961-4d90-87fc-63f7c4659bc6.jpg)
 
-IT WORKS!!!
+
 ---
 ### 7. One last thing.
 > $ curl 34.134.205.168
