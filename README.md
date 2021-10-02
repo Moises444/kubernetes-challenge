@@ -13,7 +13,7 @@ res.send('Hello Moises')
 ---
 ### 2. Cloned the repository in the cloud shell
 
-> git clone (url to kubernetes challenge) 
+> git clone https://github.com/learnk8s/kubernetes-challenge.git
 ---
 ### 3. Created the Docker image. 
 > $ ls 
