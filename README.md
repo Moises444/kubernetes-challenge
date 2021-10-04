@@ -23,6 +23,7 @@ kubernetes-challenge  README-cloudshell.txt
 moisesasaldana@cloudshell:~/kubernetes-challenge (gentle-impulse-327504)$
 
 > $ docker build . -t donatello
+> 
 > $ docker tag react-app gcr.io/gentle-impulse-327504/donatello
 ---
  
