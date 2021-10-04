@@ -27,7 +27,7 @@ moisesasaldana@cloudshell:~/kubernetes-challenge (gentle-impulse-327504)$
 > $ docker tag donatello gcr.io/gentle-impulse-327504/donatello
 ---
  
-### 4. I need to push it to the registry. Once i made the image I needed to tag it. 
+### 4. I need to push it to the registry. 
 
 
 > $ docker push gcr.io/gentle-impulse-327504/donatello
